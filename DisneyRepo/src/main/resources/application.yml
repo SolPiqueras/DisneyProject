@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/disneydb
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    initialization-mode: always
+    continue-on-error: true
+
+amazonProperties:
+  endpointUrl:
+  accessKey:
+  secretKey:
+  bucketName:
+
+spring.sendgrid.api-key:
+
